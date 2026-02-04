@@ -1,0 +1,304 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+body {
+    line-height: 1;
+    cursor: wait;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+body {
+    font-family: 'DM Sans';
+    color: #3d4d5d
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 3em
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'DM Mono';
+}
+
+
+.hyper {
+    position: absolute;
+    inset-inline-start: 0vw;
+    inset-block-start: 0vh;
+    background-color: white;
+    padding: 1.5em 3em;
+    font-size: larger;
+    border-radius: 10px;
+
+}
+
+.hyperlinks {
+    position: absolute;
+    inset-inline-start: 79vw;
+    inset-block-start: 5vh;
+}
+
+.hyperlink {
+    position: absolute;
+    inset-inline-start: 85vw;
+    inset-block-start: 5vh;
+}
+
+.link1 {
+    padding-right: 1em;
+}
+
+#title {
+    position: absolute;
+    inset-inline-start: 27vw;
+    inset-block-start: 38vh;
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 10em;
+}
+
+h2 {
+    text-align: center;
+    padding: 3em 1em 1.5em;
+    font-size: xx-large;
+    /* font-weight: 300; */
+}
+
+h3 {
+    text-align: center;
+    padding: 0.5em;
+    font-size: x-large;
+    /* font-weight: 300; */
+}
+
+h4 {
+    font-family: "DM Mono";
+    margin: 0.5em;
+    font-size: larger;
+}
+
+.space {
+    padding: 1em;
+}
+
+p {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    line-height: 1.5em;
+}
+
+button {
+    background: none;
+    border: 2px solid #008765;
+    /* color: #ef7b45; */
+    padding: 0.5em 1.5em;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    /* font-size: em; */
+}
+
+button:hover {
+    background: #008765;
+    /* border: 3px solid #5eb1bf; */
+    color: white;
+    /* box-shadow: 0 0.5em 0.5em -0.4em #5eb1bf; */
+    /* transform: translateY(-0.25em); */
+    cursor: pointer;
+}
+
+img {
+    border-radius: 10px 10px 0 0;
+}
+
+#cover {
+    /* Set explicit dimensions for the container */
+    width: 96.9vw;
+    height: 96vh;
+    padding: 2vh;
+    object-fit: cover;
+    border-radius: 20px;
+    /* Ensure any overflow from the image is hidden */
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 10px;
+    width: 30%;
+    /* margin: auto; */
+    margin-top: 2.5em;
+    /* margin-bottom: 0em; */
+    background-color: #dbdcde;
+}
+
+.pcard {
+    border-radius: 10px;
+    width: 20%;
+    margin-top: 2.5em;
+    background-color: #dbdcde;
+}
+
+
+.descrip {
+    margin: 0;
+}
+
+.card:hover {
+    background-color: #008765;
+    color: white;
+}
+
+.container {
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #008765;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin-top: 3em;
+    font-family: "DM Mono";
+}
+
+h1 {
+    color: #3d4d5d;
+}
+
+#mainfilm {
+    width: 70%;
+}
