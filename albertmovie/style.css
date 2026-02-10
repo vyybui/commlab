@@ -1,3 +1,4 @@
+/* reset CSS -- taken from https://meyerweb.com/eric/tools/css/reset/ */
 html,
 body,
 div,
@@ -134,6 +135,8 @@ table {
     border-spacing: 0;
 }
 
+/* end of CSS reset -- my CSS starts below (from line 141)*/
+/* ALBERT GREEN: #008765 */
 
 body {
     font-family: 'DM Sans';
@@ -270,6 +273,7 @@ img {
     background-color: #dbdcde;
 }
 
+/* card for each person */
 .pcard {
     border-radius: 10px;
     width: 20%;
@@ -277,16 +281,16 @@ img {
     background-color: #dbdcde;
 }
 
-
-.descrip {
-    margin: 0;
-    line-height: 20px;
-}
-
 .card:hover {
     background-color: #008765;
     color: white;
     cursor: pointer;
+}
+
+
+.descrip {
+    margin: 0;
+    line-height: 20px;
 }
 
 .container {
