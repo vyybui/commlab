@@ -109,7 +109,6 @@ a {
 
 body {
     line-height: 1;
-    cursor: wait;
 }
 
 ol,
@@ -138,7 +137,8 @@ table {
 
 body {
     font-family: 'DM Sans';
-    color: #3d4d5d
+    color: #3d4d5d;
+    cursor: url('images/loading_cursor.png'), auto;
 }
 
 .flex {
@@ -159,11 +159,16 @@ h3 {
     inset-inline-start: 0vw;
     inset-block-start: 0vh;
     background-color: white;
-    padding: 1.5em 3em;
-    font-size: larger;
+    padding: 1.5em 2em;
+    font-size: 1.3vw;
     border-radius: 10px;
 
 }
+
+.hyper:hover {
+    cursor: pointer;
+}
+
 
 .hyperlinks {
     position: absolute;
@@ -183,11 +188,11 @@ h3 {
 
 #title {
     position: absolute;
-    inset-inline-start: 27vw;
+    inset-inline-start: 22vw;
     inset-block-start: 38vh;
     font-family: "Bebas Neue";
-    color: white;
-    font-size: 10em;
+    color: #008765;
+    font-size: 10vw;
 }
 
 h2 {
@@ -222,7 +227,7 @@ p {
 }
 
 button {
-    background: none;
+    background: white;
     border: 2px solid #008765;
     /* color: #ef7b45; */
     padding: 0.5em 1.5em;
@@ -274,11 +279,13 @@ img {
 
 .descrip {
     margin: 0;
+    line-height: 20px;
 }
 
 .card:hover {
     background-color: #008765;
     color: white;
+    cursor: pointer;
 }
 
 .container {
