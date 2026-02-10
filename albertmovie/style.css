@@ -141,6 +141,7 @@ body {
     cursor: url('images/loading_cursor.png'), auto;
 }
 
+
 .flex {
     display: flex;
     justify-content: center;
@@ -243,6 +244,11 @@ button:hover {
     /* box-shadow: 0 0.5em 0.5em -0.4em #5eb1bf; */
     /* transform: translateY(-0.25em); */
     cursor: pointer;
+}
+
+#joinus {
+    margin: 2em;
+    font-size: 1em;
 }
 
 img {
