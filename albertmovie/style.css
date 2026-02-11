@@ -141,7 +141,7 @@ table {
 body {
     font-family: 'DM Sans';
     color: #3d4d5d;
-    cursor: url('images/loading_cursor.png'), auto;
+    cursor: url('images/cursor.png'), auto;
 }
 
 
@@ -170,7 +170,12 @@ h3 {
 }
 
 .hyper:hover {
-    cursor: pointer;
+    cursor: url('images/pointer.png'), pointer;
+}
+
+a:hover {
+    cursor: url('images/pointer.png'), pointer;
+
 }
 
 
@@ -246,7 +251,7 @@ button:hover {
     color: white;
     /* box-shadow: 0 0.5em 0.5em -0.4em #5eb1bf; */
     /* transform: translateY(-0.25em); */
-    cursor: pointer;
+    cursor: url('images/pointer.png'), pointer;
 }
 
 img {
@@ -284,7 +289,7 @@ img {
 .card:hover {
     background-color: #008765;
     color: white;
-    cursor: pointer;
+    cursor: url('images/pointer.png'), pointer;
 }
 
 
